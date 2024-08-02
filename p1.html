@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arush Dubey</title>
+  <link rel="icon" type="image/jpg" href="insta.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Copperplate&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Imbue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      text-align: left;
+      position: relative;
+      min-height: 100vh;
+    }
+    nav, footer {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      box-sizing: border-box;
+      z-index: 999;
+      color: #fff;
+      position: fixed;
+    }
+    nav {
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .social-media img {
+      margin-right: 10px;
+      width: 15px;
+      height: 15px;
+    }
+    .new-div {
+      background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stephan-seeber-1261728.jpg&fm=jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 100vh;
+      padding: 100px;
+    }
+    .main-heading {
+      color: rgba(255, 255, 255, 0.987);
+      font-size: 75px;
+      font-weight: bold;
+      margin-top: 20%;
+      text-shadow: 4px 4px 8px rgb(0, 0, 0);
+      text-align: center;
+    }
+    .picture {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-links li {
+      margin: 0 10px;
+    }
+    .footer-links li a {
+      text-decoration: none;
+      color: #fff;
+    }
+    .sections-wrapper {
+      background-color: black;
+      color: white;
+    }
+
+    .section-img {
+      max-width: 300px;
+      transition: transform 0.5s ease-in-out; 
+    }
+
+    .section-img:hover {
+      transform: translateX(100%);
+    }
+
+    .button {
+      color: white;
+      border-color: white;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 300px;
+      height: 400px;
+    }
+
+    .gallery:hover {
+      border: 1px solid #777;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .gallery .desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .repo-heading {
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      margin: 20px 0;
+      font-size: 24px;
+    }
+
+    .repo-container {
+      width: 30%;
+      margin: 1.5%;
+      background-color: #000;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      float: left;
+    }
+
+    .repo-container img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+
+    .repo-container a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .repo-container a:hover {
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+      .repo-container {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .repo-container {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>   
+  <nav>
+    <ul>
+      <li><a href="#">Clicks</a></li>
+      <li><a href="https://github.com/ADIR360">Github</a></li>
+      <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdkDmsnsQJLqZwKgKqGBljkNbJKzFCjBCGrXZCpBpDQcXwjVSKjdBfWbJRtJRdcthbhQV">CONTACT</a></li>
+      <li class="social-media">
+        <a href="https://www.linkedin.com/in/arush-dubey-358840244/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/arushdubey360/"><img src="https://cdn.icon-icons.com/icons2/2997/PNG/512/instagram_logo_icon_187632.png" alt="Instagram"></a>
+      </li>
+    </ul>
+    <div style="display: flex; align-items: center;">
+        <input type="text" class="AirReviews-Widget__Search" placeholder="Hello">
+        <a href="12_v.mp4" class="AirReviews-Widget__Cross button">🆗</a>
+      </div>      
+  </nav>
+
+  <div class="new-div">
+    <h1 class="main-heading">Live Love Laugh</h1>
+  </div>
+
+  <div class="profile-div">
+    <h2 style="text-align: center; color: black; margin-top: 50px;">My Profile</h2>
+    <img src="insta.jpg" alt="Shoe Mates Logo">
+    <p style="text-align: center; color: black;"></p>
+  </div>
+
+  <h2 class="repo-heading">GitHub Repos</h2>
+  <div class="repo-container">
+    <img src="https://pbs.twimg.com/ext_tw_video_thumb/1594758651008364545/pu/img/HhPXdDDvGq3RuhA_.jpg:large" alt="Shoe Mates Logo">
+    <a href="https://github.com/ADIR360/ShoeMatesAssigment1">Shoe Mates</a>
+  </div>
+  <div class="repo-container">
+    <img src="https://m.economictimes.com/thumb/msid-92641778,width-1200,height-900,resizemode-4,imgsize-16400/istock-1131179196.jpg" alt="Hospital Database Management System Logo">
+    <a href="https://github.com/bassslapper3390/ADBMS-Project-HMS-">Hospital Database Management System</a>
+  </div>
+  <div class="repo-container">
+    <img src="https://www.asmag.com/thumbnail.ashx?max=500&file=/upload/pic/case/53687.180375.jpg" alt="FireSense Logo">
+    <a href="https://github.com/ADIR360/ShoeMatesAssigment1">FireSense</a>
+  </div>
+  <div class="repo-container">
+    <img src="https://pbs.twimg.com/ext_tw_video_thumb/1594758651008364545/pu/img/HhPXdDDvGq3RuhA_.jpg:large" alt="Shoe Mates Logo">
+    <a href="https://github.com/ADIR360/ShoeMatesAssigment1">DNS Server </a>
+  </div>
+  <div class="repo-container">
+    <img src="https://m.economictimes.com/thumb/msid-92641778,width-1200,height-900,resizemode-4,imgsize-16400/istock-1131179196.jpg" alt="Hospital Database Management System Logo">
+    <a href="https://github.com/bassslapper3390/ADBMS-Project-HMS-">Hospital Database Management System</a>
+  </div>
+  <div class="repo-container">
+    <img src="https://www.asmag.com/thumbnail.ashx?max=500&file=/upload/pic/case/53687.180375.jpg" alt="FireSense Logo">
+    <a href="https://github.com/ADIR360/ShoeMatesAssigment1">FireSense</a>
+  </div>
+
+  <div class="sections-wrapper clearfix">
+    <section id="section1" class="no-padding-bottom active">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 vertical-left padding-fix">
+          
+          </div> 
+        </div> 
+      </div> 
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
